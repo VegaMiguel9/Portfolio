@@ -1,0 +1,124 @@
+
+
+.projectImg img {
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.projectText button {
+    border-style: solid;
+    border-color: rgb(54, 0, 0);
+    background-color: rgb(255, 128, 128);
+    border-radius: 4px;
+}
+
+.projectText {
+
+    
+}
+
+@media (min-width: 1024px) {
+    .projectImg img {
+        width: 500px;
+        margin-left: 100px;
+    }
+
+    .projectText button {
+        width: 20%;
+    }
+
+    .projectFlex {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 30px;
+    }
+
+
+    .projectText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .projectFlex {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 30px;
+    }
+
+    .projectImg img {
+        width: 500px;
+        margin-left: 100px;
+    }
+
+    .projectText button {
+        width: 40%;
+    }
+
+    .projectText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .projectFlex {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 30px;
+    }
+
+    .projectImg img {
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .projectText button {
+        width: 40%;
+    }
+
+    .projectText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .projectFlex {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .projectImg img {
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    .projectText button {
+        width: 40%;
+    }
+
+    .projectText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+    }
+
+}

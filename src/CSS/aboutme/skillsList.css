@@ -1,0 +1,32 @@
+.skillList {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.skillList p {
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    margin: 5px;
+    border-width: 5px;
+    font-size: 30px;
+}
+
+@media (max-width: 667px) {
+    .skillList p {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 667px) {
+    .skillList p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .skillList p {
+        font-size: 25px;
+    }
+}

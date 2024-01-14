@@ -1,0 +1,29 @@
+.footerBackgroundColor {
+    background-color: #1e2633;
+    display: flex;
+    padding-bottom: 5%;
+}
+
+/* text color */
+.footerTxtColor {
+    color: white;
+}
+
+/* flex */
+.footerFlexColumnOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.footerButton {
+    display: flex;
+    justify-content: center;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+}

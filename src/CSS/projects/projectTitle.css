@@ -1,0 +1,16 @@
+.projectTitle {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .projectTitle {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .projectTitle {
+        font-size: 25px;
+    }
+}

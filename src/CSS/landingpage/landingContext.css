@@ -1,0 +1,37 @@
+.landingFlex {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40%;
+    margin-left: 10%;
+}
+
+.intro {
+    color: white;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.icons div {
+    margin-right: 15px;
+}
+
+.aboutMe {
+    font-size: 20px;
+    color: #e3e3e3;
+}
+
+@media (min-width: 768px) {
+    .intro {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        font-size: 50px;
+    }
+}

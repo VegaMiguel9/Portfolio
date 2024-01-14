@@ -1,0 +1,74 @@
+/* My Skills CSS */
+
+.header {
+    color: black;
+}
+
+@media (max-width: 667px) {
+    .header {
+        font-size: 15px;
+        display: flex;
+        
+        justify-content: center;
+    }
+}
+
+@media (min-width: 667px) {
+    .header {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        font-size: 25px;
+    }
+}
+
+/* Selfi CSS */
+
+@media (max-width: 667px) {
+    .selfi {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.selfi img{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+@media (max-width: 667px) {
+    .selfi img{
+        height: 190px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 667px) {
+    .selfi img{
+        height: 200px;
+        margin-right: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .selfi img{
+        height: 350px;
+        margin-right: 50px;
+    }
+}
+
+/* phone centering */
+@media (max-width: 667px) {
+    .centerPhone{
+        display: flex;
+        flex-direction: column; 
+        padding-top: 20%;
+    }
+}
